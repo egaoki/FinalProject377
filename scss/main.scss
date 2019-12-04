@@ -30,7 +30,6 @@ section {
 
   &.padded {
     padding-top: 5rem;
-    padding-bottom: 5rem;
   }
 
   &.navbar {
@@ -104,10 +103,14 @@ section {
         width: 1200px;
         height: 30rem;
       }
+
   }
 
+
+
+
+
   &.intro {
-      height: 200px;
       color: black;
 
       img {
@@ -117,10 +120,10 @@ section {
   }
 
   &.footer {
+    margin-top: 5rem;
     background-color: #181818;
     color: white;
     text-align: center;
-    margin-top: 5rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
 
@@ -140,7 +143,16 @@ section {
 
 }
 
+.about {
+  padding: 6rem;
+}
 .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.row-1 {
+  margin-bottom: 5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -153,6 +165,16 @@ section {
   width: 66%;
   padding-left: 40px;
 }
+
+.coleft {
+  width: 66%;
+}
+
+.colright {
+  width: 34%;
+  padding-left: 40px;
+}
+
 
 a {
   &.button {
